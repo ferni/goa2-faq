@@ -27,29 +27,5 @@ defineProps<{ setting?: string; }>();
 </template>
 
 <style>
-a.settings-back {
-    float: left;
-    margin-top: .5em;
-    padding: 0 .75em;
-    margin-right: .5em;
-}
 
-div.app-settings {
-    text-align: center;
-
-    a {
-        display: block;
-        width: 50em;
-        max-width: 85%;
-        margin: 1.5em auto;
-        padding: .75em;
-        border: 1px solid var(--color-border);
-        border-radius: .75em;
-        box-shadow: 0 0 4px var(--color-background-mute);
-
-        &:hover {
-            box-shadow: 0 0 8px var(--color-background-mute);
-        }
-    }
-}
 </style>

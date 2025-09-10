@@ -112,7 +112,7 @@ const renderedHtml = computed(() => toMarkdown(props.text));
         vertical-align: middle;
         height: 1.5em;
         width: auto;
-        filter: drop-shadow(1px 1px 4px #000000);
+        /* filter: drop-shadow(1px 1px 4px #000000); */
     }
 
     .inline-icon-wrapper {
