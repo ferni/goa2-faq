@@ -7,6 +7,8 @@ const props = defineProps<{ text: string, inline?: boolean }>();
 
 const supported_icons = [
     'attack',
+    'attack_red',
+    'attack_gold',
     'defense',
     'initiative',
     'life_counters',
@@ -14,6 +16,8 @@ const supported_icons = [
     'marker_poison',
     'movement',
     'range',
+    'range_red',
+    'range_gold',
     'radius',
     'rune_anvil', // TODO: placeholder
     'rune_axe', // TODO: placeholder
@@ -108,9 +112,9 @@ const renderedHtml = computed(() => toMarkdown(props.text));
 
     img {
         margin-top: -0.25em;
-        margin-right: 0.15em;
+        margin-left: -0.17em;
         vertical-align: middle;
-        height: 1.5em;
+        height: 1.3em;
         width: auto;
         /* filter: drop-shadow(1px 1px 4px #000000); */
     }
