@@ -2,3 +2,59 @@
         size: A4; /* Defines the paper size */
         margin: 1cm; /* Sets 1cm margin on all sides */
     }
+
+@font-face {
+    font-family: 'tex_gyre_heros';
+    src: url('/fonts/texgyreheros-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'tex_gyre_heros';
+    src: url('/fonts/texgyreheros-bold-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'tex_gyre_heros';
+    src: url('/fonts/texgyreheros-bolditalic-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'tex_gyre_heros';
+    src: url('/fonts/texgyreheros-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'tex_gyre_heros_cn';
+    src: url('/fonts/texgyreheroscn-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'tex_gyre_heros_cn';
+    src: url('/fonts/texgyreheroscn-bold-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'tex_gyre_heros_cn';
+    src: url('/fonts/texgyreheroscn-bolditalic-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'tex_gyre_heros_cn';
+    src: url('/fonts/texgyreheroscn-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
