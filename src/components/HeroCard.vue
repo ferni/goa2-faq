@@ -75,10 +75,12 @@ function processCardType(type: Card['type']) {
     }
 
     .hero-card-text {
+        padding-top: 1px;
+        padding-bottom: 1px;
         text-align: center;
-        border: 1px solid gray;
+        border: 1px solid rgb(165, 165, 165);
         width: 51mm;
-        /* background-color: #BDBDBD; */
+        background-color: #BDBDBD;
         .markdown-container {
             line-height: 9pt;
         }
