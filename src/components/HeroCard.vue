@@ -75,6 +75,7 @@ function processCardType(type: Card['type']) {
     }
 
     .hero-card-text {
+        letter-spacing: -0.1pt;
         font-family: tex_gyre_heros;
 
         padding-top: 1px;
@@ -87,10 +88,11 @@ function processCardType(type: Card['type']) {
             line-height: 9pt;
         }
         
-        font-size: 6.5pt;
+        font-size: 7pt;
         em {
           font-family: tex_gyre_heros_cn;
-          font-size: 5.8pt;  
+          font-size: 5.9pt;  
+          letter-spacing: 0;
         }
     }
 }
