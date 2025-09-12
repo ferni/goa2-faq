@@ -55,11 +55,6 @@ onMounted(async () => {
     <header class="no-print">
         <nav>
             <RouterLink to="/hero">{{ $t('app.header.overview') }}</RouterLink>
-            <RouterLink to="/me" :class="{ disabled: !selectedHeroName, 'multi-line': !!selectedHeroName }">
-                {{ $t('app.header.dashboard') }}
-                <span v-if="selectedHeroName"><br /></span>
-                <span v-if="selectedHeroName" class="selected-hero-name">{{ selectedHeroName }}</span>
-            </RouterLink>
             <RouterLink to="/settings"><img style="margin-top: .4rem;" src="@/assets/gear.svg" width="24" />
             </RouterLink>
 
