@@ -77,15 +77,38 @@ function processCardType(type: Card['type']) {
     .hero-card-text {
         letter-spacing: -0.1pt;
         font-family: tex_gyre_heros;
-
+        text-align: center;
         padding-top: 1px;
         padding-bottom: 1px;
-        text-align: center;
         border: 1px solid rgb(165, 165, 165);
         width: 51mm;
         background-color: #BDBDBD;
         .markdown-container {
             line-height: 9pt;
+            p {
+                text-align: center;
+            }
+            ul {
+                text-align: left;
+                padding-left: 5pt;
+                margin: 0;
+            }
+            li {
+                list-style: none;
+                margin: 0;
+                p {
+                    display: inline;
+                }
+            }
+
+            li:before {
+                content:"·";
+                font-size:15pt;
+                position: relative;
+                top: 1.5pt;
+                line-height: 0;
+            }
+
         }
         
         font-size: 7pt;
@@ -94,6 +117,7 @@ function processCardType(type: Card['type']) {
           font-size: 5.9pt;  
           letter-spacing: 0;
         }
+        
     }
 }
 </style>
