@@ -30,19 +30,20 @@
 | Target (verb) | **elige como objetivo** |               |
 | Turn          | **turno**                       | 1 ronda = 4 turnos                              |
 | Round         | **ronda**                     |                         |
-| Fizzle        | se acaba                     | Abilities that can be executed only partially |
+| Fizzle        | se esfuma                   | Abilities that can be executed only partially |
 | Fast Travel   | viaje rápido                  | Alternative movement                          |
 | spawn point   | punto de reaparición         | Location for minions to appear                |
 | Skill         | habilidad                    | Action type, in detail unique to a hero       |
 | Basic Skill   | habilidad básica               | Not separated by dash                         |
 | in a straight line | en línea recta               |                          |
-
+| Ranged | de rango             |                          |
+| Take | toma             |                          |
 ---
 
 ## Special Instructions
 
 - Always translate **“target”** as:  
-  `elige un [X] como objetivo` or a grammatically fitting conjugation.
+  `apunta a [X]` or a grammatically fitting conjugation.
 - Always translate **“adjacent”** as:  
   `adyacente` .
 
