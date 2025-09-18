@@ -10,6 +10,7 @@ const supported_icons = [
     'attack_red',
     'attack_gold',
     'defense',
+    'defense_blue',
     'initiative',
     'life_counters',
     'marker_bounty',
