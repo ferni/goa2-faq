@@ -149,7 +149,7 @@
     "xar-purple-iv-metamorphosis.text": "Ganas +1 ::movement:: de Movimiento y +1 ::initiative:: de Iniciativa por cada unidad enemiga adyacente a ti.\nPuedes moverte a través de obstáculos.",
     "xar-blue-i-stone-gaze.text": "**Próximo turno:** Los héroes enemigos en el radio cuentan como héroes y terreno, y no pueden realizar acciones de movimiento.\n_(Si te mueves, el radio “se mueve” contigo)_",
     "xar-red-i-threatening-slash.text": "Apunta a una unidad adyacente a ti.\n+1 ::attack_red:: de Ataque por cada otra unidad enemiga adyacente a ti.\n_(No cuentes al objetivo cuando calcules el bono de ataque.)_",
-    "xar-green-i-charm.text": "Antes o después del movimiento, puedes mover un minion de rango enemigo en el radio hasta 2 espacios.",
+    "xar-green-i-charm.text": "Antes o después del movimiento, puedes mover un minion enemigo de rango en el radio, hasta 2 espacios.",
     "xar-blue-ii-petrifying-stare.text": "**Próximo turno:** Los héroes enemigos en el radio cuentan como héroes y terreno, y no pueden realizar acciones de movimiento.",
     "xar-red-ii-deadly-swipe.text": "Apunta a una unidad adyacente a ti.\n+2 ::attack_red:: de Ataque por cada otra unidad enemiga adyacente a ti.",
     "xar-green-ii-control.text": "Antes o después del movimiento, puedes mover un minion enemigo, de rango o melee, en el radio hasta 2 espacios.",
